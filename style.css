@@ -1,0 +1,75 @@
+body {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/* header */
+h1 {
+    color: blue;
+}
+/* button choice */
+.rock, .paper, .scissor {
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+button:active {
+    opacity: 0.4;
+}
+.btnDiv {
+    margin: 50px 0px;
+}
+button i {
+    font-size: 38px;
+}
+button p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.rock {
+    background-color: blue;
+}
+.paper{
+    background-color: lawngreen;
+}
+.scissor {
+    background-color: gold;
+}
+/* output show */
+.outputDiv {
+    margin: 70px;
+}
+.human, .computer {
+    margin: 40px;
+}
+/* result output */
+.won, .lose, .draw {
+    width: 200px;
+    height: 80px;
+    border: none;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.emoji {
+    font-size: 20px;
+}
+.won {
+    background-color: green;
+    cursor: default;
+}
+.lose {
+    background-color: red;
+    cursor: default;
+}
+.draw {
+    background-color: yellow;
+    cursor: default;
+}
+.hidden {
+    display: none;
+}
