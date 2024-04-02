@@ -1,0 +1,3 @@
+-This is a JS-Rock-Paper-Scissor-Game-Project file .
+-Languages uses are HTML , CSS , JS , Bootstrap
+-You try to play if you have time , I'm sure you'll be happy
